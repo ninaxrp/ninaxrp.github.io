@@ -2,22 +2,26 @@ h1 {
   color: #29A0B1;
   font-size: 48px;
 }
+
 h3 {
   color: #191F42;
   font-size: 32px;
-  font-weight:200
+  font-weight: 200;
 }
+
 p {
-  color: #000000
-  font-size: 14 
+  color: #000000;
+  font-size: 14px;
 }
 
 body {
-  margin: 0px
+  margin: 0;
 }
+
 .box {
-  background:#DDFFE7
+  background-color: #DDFFE7;
 }
+
 div {
   padding-top: 40px;
   padding-right: 40px;
