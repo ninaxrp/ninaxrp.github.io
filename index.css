@@ -5,13 +5,14 @@ h1 {
 
 h3 {
   color: #B3BB50;
-  font-size: 32px;
+  font-size: 24px;
   font-weight: 200;
 }
 
 p {
   color: #231E1E;
   font-size: 24px;
+  font-weight: 300;
 }
 
 body {
@@ -22,6 +23,53 @@ body {
   background-color: #FCFBF3;
   width: 100vw;
   height: 80;
+  
+  .image-container {
+  position: relative;
+  display: inline-block;
+    
 }
 
+.image-container {
+      width: 1120;
+      height: 750;
+  }
+}
+
+.overlay-text {
+  position: absolute;
+  top: 70%; 
+  left: 40%; 
+  transform: translate(-50%, -50%); 
+  background-color: none; 
+  color: #231E1E; 
+  padding: 10px 20px; 
+  font-size: 52px; 
+  text-align: left;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px; 
+  align-items: center; 
+  padding: 40px; 
+}
+
+.image-column img {
+  width: 100%;
+  height: auto;
+  display: block; /* Ensures the image scales properly */
+}
+
+.text-column h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+  align: center;
+}
+
+.text-column p {
+  font-size: 24;
+  line-height: 1.5;
+}
 
