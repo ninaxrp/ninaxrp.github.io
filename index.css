@@ -4,14 +4,14 @@ h1 {
 }
 
 h3 {
-  color: #191F42;
+  color: #B3BB50;
   font-size: 32px;
   font-weight: 200;
 }
 
 p {
-  color: #000000;
-  font-size: 14px;
+  color: #231E1E;
+  font-size: 24px;
 }
 
 body {
@@ -19,12 +19,9 @@ body {
 }
 
 .box {
-  background-color: #DDFFE7;
+  background-color: #FCFBF3;
+  width: 100vw;
+  height: 80;
 }
 
-div {
-  padding-top: 40px;
-  padding-right: 40px;
-  padding-bottom: 40px;
-  padding-left: 40px;
-}
+
