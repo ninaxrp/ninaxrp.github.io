@@ -1,17 +1,37 @@
+body {
+  background-color:#FCFBF3;
+}
+
 h1 {
-  color: #29A0B1;
-  font-size: 48px;
+  color: #231E1E;
+  padding: 20px 20px 20px 20px; 
+  text-align: center; 
+}
+
+
+h2 {
+  color: #231E1E;
+  font-size: 24px;
+  
 }
 
 h3 {
   color: #B3BB50;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 200;
+}
+
+h4 {
+  color: #231E1E;
+  font-size: 32px;
+  font-weight: 800;
+  text-align: center;
+  padding: 20px 2ppx
 }
 
 p {
   color: #231E1E;
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 300;
 }
 
@@ -44,7 +64,8 @@ body {
   background-color: none; 
   color: #231E1E; 
   padding: 10px 20px; 
-  font-size: 52px; 
+  font-size: 48px; 
+  font-weight: 800;
   text-align: left;
 }
 
@@ -59,17 +80,93 @@ body {
 .image-column img {
   width: 100%;
   height: auto;
-  display: block; /* Ensures the image scales properly */
+  display: block; 
 }
 
 .text-column h2 {
-  font-size: 2em;
   margin-bottom: 10px;
   align: center;
 }
 
 .text-column p {
-  font-size: 24;
+  font-size: 18;
   line-height: 1.5;
 }
 
+.banner-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: center;
+  padding: 40px;
+}
+
+.banner-container .text-column h2,
+.banner-container .text-column p {
+  color: #231E1E;
+}
+
+.banner-container .image-column img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.imgcenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 20px;
+  width: 70%;
+}
+
+.textp {
+  padding-top: 0px;
+  padding-bottom:12px;
+  padding-right: 80px;
+  padding-left: 80px;
+  line-height: 1.5;
+  
+}
+.video1 {
+  margin-left: 170px;
+  margin-right: auto;
+  padding-bottom: 80px;
+  width: 60%;
+}
+
+ button {
+      background-color: #B3BB50;
+      color: #231E1E;
+      padding: 15px 30px; 
+      font-size: 16px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      outline: none;
+      text-align: center; 
+}
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: 	#023020;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
